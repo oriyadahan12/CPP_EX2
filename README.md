@@ -10,12 +10,12 @@ I built some methods for extracting information and data from the graph we will 
 And I'll start with an explanation of loading a graph into a matrix:
 But before that, I'll explain about the operators I made:
 
-The << operator:
+      The << operator:
    
-std::ostream& operator<<(std::ostream& os, const Graph& graph);
+      std::ostream& operator<<(std::ostream& os, const Graph& graph);
 
-   /**
-     * Unary minus operator for Graph.
+      /**
+      Unary minus operator for Graph.
      * Defines the negation of a graph.
      */
     Graph operator-(const Graph& graph);
