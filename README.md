@@ -1,8 +1,9 @@
-t"g oriyati0701@gmail.com | 327510616
+t"g  oriyati0701@gmail.com | 327510616
 
 # SYSTEM PROGRAMMING 2- ASSIGNMENT 2
 
 My code deals with graphs and looking at all kinds of features in the graph.
+
 In this task, we also added a part of redefining operators, the way we were asked to implement them.
 We represent the matrix in an adjacency matrix in which the weight of the edges it has with the other vertices is written for each vertex (if it doesn't have a common edge, the matrix has a value of 0).
 I built some methods for extracting information and data from the graph we will receive.
@@ -13,7 +14,7 @@ The << operator:
    
 std::ostream& operator<<(std::ostream& os, const Graph& graph);
 
-/**
+   /**
      * Unary minus operator for Graph.
      * Defines the negation of a graph.
      */
